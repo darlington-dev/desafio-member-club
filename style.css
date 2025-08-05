@@ -1,0 +1,64 @@
+    * {
+      box-sizing: border-box;
+      font-family: "Oxygen", sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #e9e7e9;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title {
+      margin-bottom: 20px;
+    }
+
+    .input-container {
+      position: relative;
+      width: 400px;
+    }
+
+    .input-container input {
+      width: 100%;
+      padding: 20px 20px 20px 20px;
+      /* espaço para o botão à direita */
+      border-radius: 10px;
+      border: 1px solid transparent;
+      background-color: #dcd7da;
+      font-size: 14px;
+      outline: none;
+      transition: border 0.2s ease;
+      text-align: start;
+    }
+
+    .img_color {
+      position: absolute;
+      top: 4px;
+      right: 4px;
+      bottom: 4px;
+      padding: 4px 4px 4px 4px;
+      cursor: pointer;
+    }
+
+
+    .input-container input::placeholder {
+      color: #888;
+
+    }
+
+    /* Estado ativo ou preenchido: borda roxa */
+    .input-container:has(input:focus),
+    .input-container:has(input:not(:placeholder-shown)) {
+      border: 2px solid #d658b3;
+      border-radius: 10px;
+      .icon{
+        fill: #000;
+      }
+
+    }
+
+
