@@ -5,6 +5,47 @@
       padding: 0;
     }
 
+    .title-md {
+      font-size: 24px;
+      line-height: 140%;
+      font-weight: bold;
+    }
+
+    .title-sm {
+      font-size: 18px;
+      line-height: 140%;
+      font-weight: bold;
+    }
+
+    .subtitle-md {
+      font-size: 14px;
+      line-height: 140%;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .subtitle-sm{
+      font-size: 12px;
+      line-height: 140%;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .text-md {
+      font-size: 16px;
+      line-height: 140%;
+    }
+
+    .text-sm {
+      font-size: 14px;
+      line-height: 140%;
+    }
+
+    .text-xs {
+      font-size: 12px;
+      line-height: 140%;
+    }
+
     body {
       padding: 40px;
       display: flex;
@@ -19,7 +60,7 @@
     .input-container {
       position: relative;
       width: 400px;
-       margin-bottom: 40px;
+      margin-bottom: 40px;
     }
 
     .input-container input {
@@ -88,11 +129,11 @@
       object-fit: cover;
     }
 
-    .progress-member{
+    .progress-member {
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    
+
     .history {
       margin-top: 20px;
       margin-bottom: 20px;
@@ -118,7 +159,7 @@
       padding: 6px 0;
       font-size: 14px;
     }
-    
+
 
     .progress-card {
 
@@ -148,12 +189,12 @@
       font-size: 20px;
     }
 
-.fidelidade-card {
+    .fidelidade-card {
       max-width: 700px;
       border-radius: 20px;
       background-color: #F4F1F2;
       padding: 30px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     }
 
     .slot {
@@ -191,7 +232,7 @@
 
 
 
-        .progress-bar {
+    .progress-bar {
       background: linear-gradient(to right, #20c997, #0d6efd, #d63384);
     }
 
