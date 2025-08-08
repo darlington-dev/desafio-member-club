@@ -18,6 +18,7 @@
 
   <div class="title"><img src="assets/Logo.png" alt=""></div>
 
+
   <div class="input-container">
     <input type="text" placeholder="ID do cartão">
     <svg class="img_color" width="50" height="50" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -60,43 +61,91 @@
 
       </div>
       <div class="col-md-5">
-        <div class="fidelity-card">
-          <div class="d-flex justify-content-between">
+
+
+        <div class="fidelidade-card">
+          <div class="d-flex justify-content-between align-items-start mb-3">
             <div>
-              <h4>CARTÃO FIDELIDADE</h4>
-              <p>Ao fazer cortes de cabelo, o décimo sai de graça!</p>
+              <h6 class="fw-bold mb-1">CARTÃO FIDELIDADE</h6>
+              <p class="mb-0 text-muted">Ao fazer cortes de cabelo, o décimo sai de graça!</p>
             </div>
-            <div>
-              <small>ID: 124-537-835-230</small>
+            <div class="bg-secondary bg-opacity-25 px-3 py-1 rounded-pill fw-semibold text-secondary">
+              ID: 124-537-835-230
             </div>
           </div>
-          <div class="stamps">
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp checked"><img src="assets/PinCheck.png" alt=""></div>
-            <div class="stamp"></div>
-            <div class="stamp"></div>
-            <div class="stamp"><img src="assets/Icons.png" alt=""></div>
+
+          <div class="row g-3">
+            <!-- Primeira linha -->
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+
+            <!-- Segunda linha -->
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/PinCheck.png" alt="Check"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"></div>
+            </div>
+            <div class="custom-col-5">
+              <div class="slot"><img src="assets/Icons.png" alt="Gift"></div>
+            </div>
           </div>
+
+
         </div>
 
-        <div class="progress-card">
-          <span>3 cortes restantes</span>
-          <div class="progress-bar">
-            <div class="progress-bar-fill"></div>
-          </div>
-          <span class="gift-icon">🎁 7 de 10</span>
-        </div>
 
+        <div class="progress-member">
+          <div class="d-flex align-items-center justify-content-between">
+
+            <!-- Texto e progresso -->
+            <div class="flex-grow-1 me-4">
+              <h5 class="mb-2 fw-bold">
+                <span class="text-dark">3</span> <span class="fw-normal text-muted">cortes restantes</span>
+              </h5>
+
+              <div class="progress rounded-pill" style="height: 10px;">
+                <div class="progress-bar" style="width: 70%;"></div>
+
+              </div>
+
+              <div class="text-end mt-1 text-muted small">7 de 10</div>
+            </div>
+
+            <!-- Ícone de presente -->
+            <div class="icon-gift">
+              <img src="assets/fidelidade.svg" alt="Presente">
+            </div>
+
+          </div>
+
+        </div>
       </div>
+
 
     </div>
   </div>
-  </div>
+
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
