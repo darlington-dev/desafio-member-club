@@ -2,6 +2,8 @@
   "name": "desafiomemberclub",
   "description": "Aplicação WEB para cliente fidelidade",
   "author": "Darlington Leonel Silva",
+  "main": "index.js",
+  "private": true,
   "scripts": {
     "build": "webpack",
     "dev": "webpack serve",
