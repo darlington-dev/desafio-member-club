@@ -18,7 +18,7 @@ export function mountFidelityPoints({
 
         if (cutsNeeded - 1 === index && cutsNeeded > totalCuts) {
             const img = document.createElement('img');
-            img.src = './src/assets/GrayGift.svg';
+            img.src = './src/assets/Icons.png';
             img.alt = 'Ícone de presente cinza, parecendo desabilitado';
             grayBox.append(img)
         }

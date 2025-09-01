@@ -43,7 +43,7 @@ export function mountHistoryLog({
         verified.classList.add('verified')
 
         const img = document.createElement('img');
-        img.src = './src/assets/Verificado.svg';
+        img.src = './src/assets/Icon.png';
         img.alt = 'Ícone de verificado'
 
         /**

@@ -1,4 +1,3 @@
-const suggestion = document.querySelector('.suggestion');
 const input = document.querySelector('.input')
 
 suggestion.querySelectorAll('button').forEach(button => {

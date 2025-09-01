@@ -26,3 +26,4 @@ export async function getClientDetails({ id }) {
         throw new Error(MENSAGEM_CLIENTE_NAO_ENCONTRADO)
     }
 }
+
